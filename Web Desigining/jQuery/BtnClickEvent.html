@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+   
+    <title>BtnClickEvent</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+				$(document).ready(function(){
+					
+					$('#BtnHide').click(function(){
+					if(confirm("are you sure?")){
+						$('#MyDiv').hide(2000);
+                        $("#BtnToggle").text("Show");
+						$("#BtnShow").attr('disabled',false);
+						$("#BtnHide").attr('disabled',true);
+                        
+					}
+					});
+					$('#BtnShow').click(function(){
+					if(confirm("are you sure?")){
+						$('#MyDiv').show();
+                        $("#BtnToggle").text("Hide");
+						$("#BtnShow").attr('disabled',true);
+						$("#BtnHide").attr('disabled',false);
+					}
+					});
+					$('#BtnToggle').click(function(){
+                        if(confirm("Are you sure..??")){
+						$("#MyDiv").toggle(3000);
+                       if($("#BtnToggle").text()=="Hide")
+						{
+							$("#BtnToggle").text("Show");
+							$("#BtnShow").attr('disabled',false);
+							$("#BtnHide").attr('disabled',true);
+						}
+						else
+						{
+							$("#BtnToggle").text("Hide");
+							$("#BtnShow").attr('disabled',true);
+							$("#BtnHide").attr('disabled',false);
+						}
+                        }
+					});
+					
+					
+					$("#BtnPlus").click(function(){
+							var MDH=parseInt($("#MyDiv").css('height'));
+							var MDW=parseInt($("#MyDiv").css('width'));
+							if(MDH<=500)
+							{
+								MDH+=10;
+								MDW+=10;
+								$("#MyDiv").css('height',MDH);
+								$("#MyDiv").css('width',MDW);
+							}
+							else{
+								alert("More than 500px is not possible..!!");
+							}
+						
+					});
+					
+					$("#BtnMinus").click(function(){
+						var MDH=parseInt($("#MyDiv").css('height'));
+							var MDW=parseInt($("#MyDiv").css('width'));
+							if(MDH>=20)
+							{
+								MDH-=10;
+								MDW-=10;
+								$("#MyDiv").css('height',MDH);
+								$("#MyDiv").css('width',MDW);
+							}
+							else{
+								alert("Less than 20px is not possible..!!");
+							}
+					});
+				});
+               
+        </script>
+</head>
+<body>
+    <div id="MyDiv" style="height:300px;width:300px;background-color:burlywood;"></div><hr />
+		<button id="BtnHide">Hide</button>&nbsp;&nbsp;<button id="BtnShow">Show</button><hr />
+        <button id="BtnToggle">Hide</button><hr />
+        <button id="BtnPlus" style="font-size:xx-large;"><b>+</b></button>&nbsp;&nbsp;<button id="BtnMinus" style="font-size:xx-large;"><b>-</b></button><hr />
+</body>
+</html>

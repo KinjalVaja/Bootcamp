@@ -1,0 +1,16 @@
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.exe
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.deps.json
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.runtimeconfig.json
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.runtimeconfig.dev.json
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.dll
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\bin\Debug\net5.0\DependencyInjection.pdb
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.csproj.AssemblyReference.cache
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.AssemblyInfoInputs.cache
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.AssemblyInfo.cs
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.csproj.CoreCompileInputs.cache
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.dll
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\refint\DependencyInjection.dll
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.pdb
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\DependencyInjection.genruntimeconfig.cache
+D:\KCS\KCS-Training\OOPS\OOPS_BASIC\DependencyInjection\obj\Debug\net5.0\ref\DependencyInjection.dll
